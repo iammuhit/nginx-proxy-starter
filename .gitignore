@@ -1,0 +1,11 @@
+# Volumes
+certs/*
+!certs/.gitkeep
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
