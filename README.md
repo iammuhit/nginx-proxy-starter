@@ -5,5 +5,6 @@ See [Automated Nginx Reverse Proxy for Docker](http://jasonwilder.com/blog/2014/
 ### Usage
 
 ```console
-docker-compose up -d
+docker network create maya-server
+docker compose up -d
 ```
